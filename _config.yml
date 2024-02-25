@@ -181,7 +181,7 @@ compress_html:
 exclude:
   - "*.gem"
   - "*.gemspec"
-  - docs
+  - _site
   - tools
   - README.md
   - LICENSE
@@ -198,4 +198,4 @@ jekyll-archives:
     category: /categories/:name/
 
 #Site Destination
-destination: docs
+destination: _site
